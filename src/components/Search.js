@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "../styles/search.css";
-// import getImages from "../requests/getImages";
+import getImages from "../requests/getImages";
 
 const Search = ({ setSearchResults }) => {
   const [value, setValue] = useState();
