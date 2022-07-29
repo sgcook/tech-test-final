@@ -26,8 +26,8 @@ const Search = ({ setSearchResults }) => {
   )
 }
 
-export default Search;
-
 Search.propTypes = {
   setSearchResults: PropTypes.func.isRequired,
 }
+
+export default Search;

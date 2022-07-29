@@ -16,8 +16,8 @@ function SearchResults({ results }) {
   }
 }
 
-export default SearchResults;
-
 SearchResults.propTypes = {
   results: PropTypes.array.isRequired,
 }
+
+export default SearchResults;
